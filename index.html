@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato-clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="logo-container"><span><img src="./logo.avif" alt=""></span></div>
+            <div id="search-container">
+                <section id="location">
+                    <span><svg id="loc" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                      </svg>
+                    </span>
+                    <span>
+                        <input type="text" value="Bengaluru" id="">
+                    </span>
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16" style="margin-right: 7px;">
+                            <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                          </svg>
+                    </span>
+                </section>
+                <section id="input-box">
+                    <span id="search-icon"><svg  xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                      </svg>
+                    </span>
+
+                    <span id="inp-container ">
+                        <input type="search" style="border: none; outline: none;width: 450px;" placeholder="Search for a restaurant, cuisine or a dish">
+                    </span>
+                </section>
+            </div>
+            <div id="reg-container">
+                <span><a href="##">Login</a></span>
+                <span><a href="##">Sign up</a></span>
+            </div>
+        </nav>
+    </header>
+    <section id="navigate">
+        <p id="para">
+            <a href="##">Home</a>/
+            <a href="##">India</a>/
+            <span>Bengaluru Restaurants</span>
+        </p>
+    </section>
+    <!-- dining/delivery/nightlife -->
+    <section id="services">
+        <article>
+            <div id="dining">
+                <span class="images">
+                    <img src="https://b.zmtcdn.com/data/o2_assets/30fa0a844f3ba82073e5f78c65c18b371616149662.png?output-format=webp" alt="">
+                </span>
+                <span>Dining</span>
+            </div>
+            <div id="delivery">
+                <span class="images">
+                    <img src="https://b.zmtcdn.com/data/o2_assets/246bbd71fbba420d5996452be3024d351616150055.png?output-format=webp" alt="">
+                </span>
+                <span>Delivery</span>
+            </div>
+            <div id="nightlife">
+                <span class="images">
+                    <img src="https://b.zmtcdn.com/data/o2_assets/01040767e4943c398e38e3592bb1ba8a1616150142.png?output-format=webp" alt="">
+                </span>
+                <span>Nightlife</span>
+            </div>
+        </article>
+    </section><br>
+    <h1 id="collections">Collections</h1><br><br>
+    <section id="explore">
+        <p>Explore curated lists of top restaurants, cafes, pubs, and bars in Bengaluru, based on trends</p>
+        <span>
+            All collections in Bengaluru
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+              </svg>
+        </span>
+    </section><br>
+<!-- 
+     -->
+<!-- 
+      -->
+<!--  
+      -->
+    <section id="details" >
+        <section class="hotel" aria-roledescription="slide">
+            <img src="https://b.zmtcdn.com/data/pictures/1/21425661/9386c0c0fe84bf91b8dc403669f5fae8_featured_v2.jpg?output-format=webp" alt="">
+            <p class="s1">Best Roof-Top Restaurants </p>
+            <p class="s11">31 Places ►</p>
+            
+        </section>
+        <section class="hotel" aria-roledescription="slide">
+            <img src="https://b.zmtcdn.com/data/pictures/3/21274383/e83cd851aa2d9901a3e990b1f643b361_featured_v2.jpg" alt="">
+            <p class="s2">Newly Opened Restaurants </p>
+            <p class="s22">41 Places ►</p>
+        </section>
+        <section class="hotel" aria-roledescription="slide">
+            <img src="https://b.zmtcdn.com/data/pictures/9/21298169/66770a429d286e3b683f9e05520f0dbf_featured_v2.jpg" alt="">
+            <p class="s3">It's a Date</p>
+            <p class="s33">30 Places ►</p>
+        </section>
+        <section class="hotel" aria-roledescription="slide">
+            <img src="https://b.zmtcdn.com/data/pictures/0/20540040/212506e1d8f38dd0d9697ce408faaacf_featured_v2.jpg" alt="">
+            <p class="s4">Best Luxury Dining Place</p>
+            <p class="s44">24 Places ►</p>
+        </section>
+        <!-- <section class="hotel" aria-roledescription="slide">
+            <img src="./images/panasia.avif" alt="">
+            <p class="s5">Pan-Asian Restaurants</p>
+            <p class="s55">20 Places ►</p>
+        </section> -->
+        <!-- <section class="hotel" aria-roledescription="slide">
+            <span><img src="./images/cafe.avif" alt=""></span>
+            <p class="s6">cafe for Hangout</p>
+        </section> -->
+    </section>
+    <br>
+    <section id="filters">
+        <section class="sort" id="sort1">
+            <section><svg xmlns="http://www.w3.org/2000/svg" fill="#9C9C9C" width="18" height="18" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 iwHbVQ"><path d="M2.14 6.42h7.26c0.353 1.207 1.45 2.074 2.75 2.074s2.397-0.867 2.745-2.054l0.005-0.020h2.96c0.343-0.059 0.6-0.355 0.6-0.71s-0.258-0.651-0.596-0.709l-0.004-0.001h-2.94c-0.341-1.226-1.447-2.11-2.76-2.11s-2.419 0.885-2.755 2.090l-0.005 0.020h-7.26c-0.343 0.059-0.6 0.355-0.6 0.71s0.257 0.651 0.596 0.709l0.004 0.001zM12.16 4.28c0.776 0.011 1.4 0.643 1.4 1.42 0 0.784-0.636 1.42-1.42 1.42-0.777 0-1.409-0.624-1.42-1.399l-0-0.001c-0-0.006-0-0.013-0-0.020 0-0.784 0.636-1.42 1.42-1.42 0.007 0 0.014 0 0.021 0l-0.001-0zM17.86 13.58h-7.24c-0.328-1.245-1.443-2.148-2.77-2.148s-2.442 0.903-2.766 2.128l-0.004 0.020h-2.94c-0.036-0.006-0.077-0.010-0.12-0.010-0.398 0-0.72 0.322-0.72 0.72s0.322 0.72 0.72 0.72c0.042 0 0.084-0.004 0.124-0.011l-0.004 0.001h2.96c0.353 1.207 1.45 2.074 2.75 2.074s2.397-0.867 2.745-2.054l0.005-0.020h7.26c0.343-0.059 0.6-0.355 0.6-0.71s-0.258-0.651-0.596-0.709l-0.004-0.001zM7.84 15.72c-0.776-0.011-1.4-0.643-1.4-1.42 0-0.784 0.636-1.42 1.42-1.42 0.777 0 1.409 0.624 1.42 1.399l0 0.001c0 0.006 0 0.013 0 0.020 0 0.784-0.636 1.42-1.42 1.42-0.007 0-0.014-0-0.021-0l0.001 0z"></path></svg></section>
+            <section>filters</section>
+        </section>
+        <section class="sort">Offers</section>
+        <section class="sort">Rating:4.5+</section>
+        <section class="sort">Pet Friendly</section>
+        <section class="sort">Outdoor Seating</section>
+        <section class="sort">Serves Alcholol</section>
+        <section class="sort">Open Now</section>
+    </section>
+    <div id="discount">
+        <!-- <br> -->
+        <img src="https://b.zmtcdn.com/data/o2_assets/e067a1cf0d3fe27b366402b98b994e9f1716296909.png" id="off50">
+    </div>
+    <div id="bang-rest">
+        <h1>Best Food in Bengaluru</h1>
+        <br><br>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "open sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;   
+}
+body{
+    width: 100vw;
+    background-color: #efefef; 
+}
+header{
+    height: 70px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    width: 90%;
+    height: 95%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#logo-container{
+    flex-basis: 15%;
+    height: 40px;
+}
+#logo-container span{
+    width:70%;
+}
+#logo-container span>img{
+    width:70%;
+}
+#search-container{
+    flex-basis: 65%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0px 0px 3px #898787;
+    border-radius: 1%;
+    opacity: 90%;
+}
+#location{
+    flex-basis: 30%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-right: 1px solid grey;
+}
+#location span{
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+#location span #loc{
+    margin-left: 7px;
+    color: #f45b74;
+}
+#location span input{
+    width: 220px;
+    height: 30px;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+}
+#input-box{
+    flex-basis: 70%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#input-box #search-icon{
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;   
+}
+#input-box #inp-container input{
+    width: 450px;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+#reg-container{
+    flex-basis: 20%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#reg-container span a{
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #7d7b7b;
+}
+#reg-container span a:hover{
+    color: black;
+}
+/* paragraph */
+#navigate{
+    height: 50px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: end;
+}
+#para{
+    background-attachment: #ffffff;
+    width: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+#para a{
+    font-size: 14px;
+    text-decoration: none;
+    color: gray;
+}
+#para a:hover{
+    color: #f45b74;
+}
+#para span{
+    font-size: 14px;
+    color: lightgray;
+}
+#services{
+    height: 100px;
+    width: 100vw;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 100;
+}
+#services article{
+    height: 100%;
+    width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    margin-left: 60px;
+}
+.images{
+    height: 65px;
+    width: 65px;    /* background-color: #f1f1f1; */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.images img{
+    height: 40px;
+    width: 40px;
+}
+#services article div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#dining .images{
+    background-color: #f1f1f1;
+}
+#delivery .imagess{
+    background-color: #dfdfdf;
+}
+#nightlife .images{
+    background-color: #b4deef;
+}
+#collections{
+    margin-left: 80px;
+    font-size: 30px;
+    font-weight: 500;
+}
+#explore{
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+#explore span{
+    position: absolute;
+    right: 100PX;
+    top: 275px;
+    color: #f45b74;
+}
+#explore span svg{
+    padding-top: 4px;
+}
+#details{
+    position: relative;
+    height: 400px;
+    width: 100vw;
+    display: flex;
+    gap: 30px;
+    margin-left: 80px;
+    color: #ffffff;
+    text-align: center;
+}
+#details .hotel{
+    height: 380px;
+    width: 290px;
+    background-color: #ffffff;  
+    border-radius: 5%;
+}
+#details .hotel  img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5%;
+}
+.s1{
+    position: absolute;
+    bottom: 48px;
+    left: 4px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.s11{
+    position: absolute;
+    bottom: 25px;
+    left: 4px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.s2{
+    position: absolute;
+    bottom: 48px;
+    left: 4px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 325PX;
+}
+.s22{
+    position: absolute;
+    bottom: 25px;
+    left: 4px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 325PX;
+}
+.s3{
+    position: absolute;
+    bottom: 48px;
+    left: 4px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 645PX;
+}
+.s33{
+    position: absolute;
+    bottom: 25px;
+    left: 4px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 645PX;
+}
+.s4{
+    position: absolute;
+    bottom: 48px;
+    left: 4px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 960PX;
+    background-image: url();
+}
+.s44{
+    position: absolute;
+    bottom: 25px;
+    left: 4px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 960PX;
+    background-image: url();
+}
+#filters{
+    background-color: #ffffff;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+#filters .sort{
+    border: 1px solid lightgray;
+    width: auto;
+    padding: 6px;
+    border-radius: 0.8rem; 
+    color: #817d7d;
+}
+#filters .sort:hover{
+    background-color: #e0dcdc70;
+}
+#filters #sort1{
+    display: flex;
+    margin-left: 80px;
+}
+#discount{
+    background-color: #ffffff;
+}
+#off50{
+    height: 250px;
+    width: 85vw;
+    margin-left: 80px;
+}
+#bang-rest{  
+    background-color: #ffffff;
+    padding-top: 5px;
+}
+#bang-rest h1{
+    color: rgb(28, 28, 28);
+    font-size: 2rem;
+    margin-left: 80px;
+    line-height: 1.2;
+    font-weight: 500;
+}
+
